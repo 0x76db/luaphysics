@@ -4,15 +4,15 @@
 g = 9.81;
 
 -- velocita iniziale
-v0x = 20.0;
-v0y = 0.0;
+v0x = 100.0;
+v0y = 100.0;
 
 -- posizione iniziale
 x0 = 0
-y0 = 10;
+y0 = 200;
 
 -- accelerazione
-ax = 0
+ax = 100*g
 ay = -g
 
 function r (t)

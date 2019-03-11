@@ -12,5 +12,5 @@ aux_source_directory(lua LUA_SOURCES)
 file(GLOB_RECURSE LUA_SOURCES "lua/*.c" "lua/*.h")
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
-add_executable(SFMLTest main.cpp ${LUA_SOURCES})
+add_executable(SFMLTest main.cpp CartesianAxis.hpp ${LUA_SOURCES})
 target_link_libraries(SFMLTest sfml-graphics sfml-audio)
